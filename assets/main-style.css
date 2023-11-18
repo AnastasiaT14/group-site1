@@ -1,0 +1,230 @@
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  z-index: 99;
+}
+.container {
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.portfolio-header.logged-in {
+  top: 32px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+}
+.main-navigation.gpj-navigation {
+  width: auto;
+}
+.header-menu.nav-menu {
+  display: flex;
+  gap: 50px;
+}
+.img {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header-menu.nav-menu a {
+  color: #fff;
+  font-family: "Open Sans" sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header-menu.nav-menu a:hover {
+  font-size: 25px;
+  delay: 1s;
+}
+.section1 {
+  height: 100vh;
+  position: relative;
+}
+.section1 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-content h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans" sans-serif;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 57px;
+}
+.hero-content p {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 50px;
+}
+.hero-content button a {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans" sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+.button {
+  border-radius: 10px;
+  background: #00a651;
+  padding: 14px 22px;
+}
+.button:hover,
+.button:focus {
+  background: #666;
+}
+
+.cards {
+  background-color: #000000cf, #48484800, #9e9e9e00, #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 30px;
+}
+.card {
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  width: 416px;
+  height: 232px;
+  flex-shrink: 0;
+}
+.section2 {
+  padding: 20px;
+  margin-bottom: 81px;
+}
+.section2 h1 {
+  display: flex;
+  justify-content: center;
+  color: #000;
+  text-align: center;
+  font-family: "Open Sans" sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section2 h2 {
+  color: #000;
+  font-family: "Open Sans" sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section2 p {
+  color: #000;
+  font-family: "Open Sans" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section3 {
+  position: relative;
+}
+
+.section3 img {
+  display: block;
+  filter: brightness(0.1);
+}
+
+.section3 .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.section3 h1 {
+  margin-top: -150px;
+  color: #000;
+  text-align: center;
+  font-family: "Open Sans" sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 19px;
+}
+.section3 p {
+  color: #000;
+  text-align: center;
+  font-family: "Open Sans" sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 118px;
+}
+.section3 h3 {
+  color: #000;
+  text-align: center;
+  font-family: "Open Sans" sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section3 h2 {
+  color: #000;
+  font-family: "Open Sans" sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.boxes {
+  display: flex;
+  gap: 130px;
+  justify-content: space-between;
+}
+.box {
+  border-radius: 15px;
+  background: #ffffff;
+  width: 250px;
+  height: 250px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.section3 {
+  margin-bottom: 60px;
+}
+.section4 img {
+  width: 695px;
+  height: 772px;
+  flex-shrink: 0;
+}
