@@ -35,7 +35,7 @@
 					<?php
 					the_custom_logo();
 					?>
-				</div><!-- .site-branding -->
+				</div>
 
 				<nav id="site-navigation" class="main-navigation gpj-navigation">
 					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'gpj1' ); ?></button>
